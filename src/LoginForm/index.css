@@ -1,0 +1,61 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #152850;
+  height: 100vh;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #e0eefe;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.logo {
+  width: 80%;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  height: 429px;
+  width: 300px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.heading {
+  color: #183b56;
+  font-family: 'Roboto';
+  font-size: 30px;
+}
+
+.login-button {
+  color: white;
+  background-color: #1565d8;
+  width: 250px;
+  height: 30px;
+  border-width: 0px;
+}
+
+.username-input-filed {
+  display: flex;
+  flex-direction: column;
+  border-color: #c3cad9;
+  margin: 20px;
+}
+.input-label {
+  text-align: center;
+}
